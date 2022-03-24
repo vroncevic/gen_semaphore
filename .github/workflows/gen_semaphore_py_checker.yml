@@ -2,8 +2,14 @@ name: gen_semaphore py checker
 on:
   push:
     branches: [ master ]
+    paths:
+      - 'gen_semaphore/**'
+      - 'setup.py'
   pull_request:
     branches: [ master ]
+    paths:
+      - 'gen_semaphore/**'
+      - 'setup.py'
 jobs:
   build:
     runs-on: ubuntu-latest
