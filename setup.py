@@ -114,7 +114,7 @@ setup(
     platforms='POSIX',
     classifiers=PYP_CLASSIFIERS,
     packages=[
-        'gen_semaphore', 'gen_semaphore.pro', 'gen_semaphore.pro.config'
+        'gen_semaphore', 'gen_semaphore.pro'
     ],
     install_requires=['ats-utilities'],
     package_data={
